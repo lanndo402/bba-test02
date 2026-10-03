@@ -30,3 +30,9 @@ git reset HEAD~3
 => chuyển 3 commit cuối cùng từ vùng repository về working direction
 
 *trong các commit này có những file nào thì những file đó sẽ được chuyển*
+
+----
+Thay đổi nội dung commit gần nhất
+```
+git commit --amend -m"message mới"
+```
